@@ -2,7 +2,7 @@ Bitcoin Price Prediction using Sentiment Analysis
 =================================================================
 
 ### Jeffrey Jackovich
-### October, 2019
+### October, 2018
 <br><br>
 # Contents
 <div>
