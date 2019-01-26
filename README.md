@@ -15,8 +15,9 @@ Bitcoin Price Prediction using Sentiment Analysis
       <ul><ul>3.2 Technical Indicators</ul></ul>
       <ul><ul>3.3 Tweet source</ul></ul>
       <ul><ul>3.4 Tweet pre-processing</ul></ul>
-    <ul>4. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#3-results">Results</a></ul>
-   
+    <ul>4. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#4-results">Results</a></ul>
+    <ul>5. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#5-conclusions">Conclusions</a></ul>
+    <ul>6. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#6-future-work">Future Work</a></ul>
 </div>
 
 ## 1. Introduction:  
@@ -53,9 +54,31 @@ I used Twitter's querysearch option for the phrase: 'bitcoin'.
 ### 3.1 Tweet data source:
 <ul>b. <a href="https://github.com/Jefferson-Henrique/GetOldTweets-python">GetOldTweets-python</a></ul>
 
-### 3.2 Tweet's Pre-Processing 
-<ul><a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment/blob/master/tweet_pre-processing.ipynb">Tweets pre-processing</a></ul>
+### 3.2 Tweet Pre-processing: Pandas 
+<ul><a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment/blob/master/tweet_pre-processing.ipynb">Tweet pre-processing: Pandas</a></ul>
 
+### 3.3 Tweet Pre-processing: Spark 
+<ul><a href="https://github.com/JeffreyJackovich/bitcoin-prediction-using-sentiment/blob/master/tweet_pre-processing_spark.ipynb">Tweet pre-processing: Spark</a></ul>
+
+## 4. Results: 
+<p><img width="1000"  
+        src="https://github.com/JeffreyJackovich/bitcoin-prediction-using-sentiment/blob/master/plots/linearRegressor_test_results.png"> </p>
+ 
+<br>
+<br>
+LinearRegressor:
+Final RMSE (on training data): 1840.08
+Final RMSE (on test data): 3420.21
+
+DNNRegressor:
+Final RMSE (on training data): 1840.08
+Final RMSE (on test data): 3420.21
+## 5. Conclusions:
+TBD  
+
+## 5. Future Work:
+Machine Learning Approaches: 
+- Implement a Genetic Algorithm to optimize hyperparameters
 
 ## References:
 
