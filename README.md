@@ -3,7 +3,6 @@ Bitcoin Price Prediction using Sentiment Analysis
 
 ### Jeffrey Jackovich
 ### October, 2018
-<br><br>
 # Contents
 <div>
     <ul>1. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#1-introduction">Introduction</a></ul>
@@ -45,6 +44,7 @@ Analysis, we discuss a few characteristics of Twitter:
 
 ## 2. Technologies:
 Programming Language: Python
+<br>
 Big data technologies: SparkML, Spark-SQL
 Libraries: Pandas, Matplotlib, Scikit-learn, TensorFlow
  
