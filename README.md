@@ -46,6 +46,7 @@ Analysis, we discuss a few characteristics of Twitter:
 Programming Language: Python
 <br>
 Big data technologies: SparkML, Spark-SQL
+<br>
 Libraries: Pandas, Matplotlib, Scikit-learn, TensorFlow
  
 ## 3. Methodology: 
