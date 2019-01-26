@@ -9,13 +9,15 @@ Bitcoin Price Prediction using Sentiment Analysis
     <ul>1. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#1-introduction">Introduction</a></ul>
     <ul><ul>1.1 Sentiment Analysis</ul></ul>
     <ul><ul>1.2 Twitter</ul></ul>
-    <ul>2. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#2-methodology">Methodology</a></ul>
-      <ul><ul>2.1 Stock Price Dataset</ul></ul>
-      <ul><ul>2.2 Technical Indicator</ul></ul>
-      <ul><ul>2.3 Tweet source</ul></ul>
-      <ul><ul>2.4 Tweet's Pre-Processing</ul></ul>
-    <ul>3. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#3-results">Results</a></ul>
-   
+    <ul>2. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#2-technologies">Technologies</a></ul>
+    <ul>3. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#3-methodology">Methodology</a></ul>
+      <ul><ul>3.1 Bitcoin Price Data</ul></ul>
+      <ul><ul>3.2 Technical Indicators</ul></ul>
+      <ul><ul>3.3 Tweet source</ul></ul>
+      <ul><ul>3.4 Tweet pre-processing</ul></ul>
+    <ul>4. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#4-results">Results</a></ul>
+    <ul>5. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#5-conclusions">Conclusions</a></ul>
+    <ul>6. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#6-future-work">Future Work</a></ul>
 </div>
 
 ## 1. Introduction:  
@@ -31,9 +33,8 @@ based on topic keywords. Opinions are user specific statement exhibiting
 positive or negative sentiments about a certain topic. Generally opinions are
 hard to categorize using keywords. Various text analysis and machine learning
 techniques are used to mine opinions from a document [1]
-
 **Financial Markets**
-     Public opinion regarding companies can be used to predict performance of their stocks in the financial markets. If people have a positive opinion about a product that a company A has launched, then the share prices of A are likely to go higher and vice versa. Public opinion can be used as an additional feature in existing models that try to predict market performances based on historical data. 
+     Public opinion regarding companies can be used to predict performance of their stocks in financial markets. If people have a positive opinion about a product that a company A has launched, then the share prices of A are likely to go higher and vice versa. Public opinion can be used as an additional feature in existing models that try to predict market performances based on historical data.
      
 ###  1.2  Twitter
 Twitter is an online social networking and micro-blogging service that enables
@@ -44,6 +45,7 @@ Analysis, we discuss a few characteristics of Twitter:
 
 ## 2. Technologies:
 Programming Language: Python
+Big data technologies: SparkML, Spark-SQL
 Libraries: Pandas, Matplotlib, Scikit-learn, TensorFlow
  
 ## 3. Methodology: 
@@ -52,9 +54,31 @@ I used Twitter's querysearch option for the phrase: 'bitcoin'.
 ### 3.1 Tweet data source:
 <ul>b. <a href="https://github.com/Jefferson-Henrique/GetOldTweets-python">GetOldTweets-python</a></ul>
 
-### 3.2 Tweet's Pre-Processing 
-<ul><a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment/blob/master/tweet_pre-processing.ipynb">Tweets pre-processing</a></ul>
+### 3.2 Tweet Pre-processing: Pandas 
+<ul><a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment/blob/master/tweet_pre-processing.ipynb">Tweet pre-processing: Pandas</a></ul>
 
+### 3.3 Tweet Pre-processing: Spark 
+<ul><a href="https://github.com/JeffreyJackovich/bitcoin-prediction-using-sentiment/blob/master/tweet_pre-processing_spark.ipynb">Tweet pre-processing: Spark</a></ul>
+
+## 4. Results: 
+<p><img width="1000"  
+        src="https://github.com/JeffreyJackovich/bitcoin-prediction-using-sentiment/blob/master/plots/linearRegressor_test_results.png"> </p>
+ 
+<br>
+<br>
+LinearRegressor:
+Final RMSE (on training data): 1840.08
+Final RMSE (on test data): 3420.21
+
+DNNRegressor:
+Final RMSE (on training data): 1840.08
+Final RMSE (on test data): 3420.21
+## 5. Conclusions:
+TBD  
+
+## 5. Future Work:
+Machine Learning Approaches: 
+- Implement a Genetic Algorithm to optimize hyperparameters
 
 ## References:
 
