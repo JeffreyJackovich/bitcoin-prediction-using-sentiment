@@ -71,8 +71,8 @@ Final RMSE (on training data): 1840.08
 Final RMSE (on test data): 3420.21
 
 DNNRegressor:
-Final RMSE (on training data): 1840.08
-Final RMSE (on test data): 3420.21
+Final RMSE (on training data): 47.56
+Final RMSE (on test data): 61.90
 ## 5. Conclusions:
 TBD  
 
