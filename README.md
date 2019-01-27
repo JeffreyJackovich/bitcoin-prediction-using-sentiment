@@ -3,7 +3,6 @@ Bitcoin Price Prediction using Sentiment Analysis
 
 ### Jeffrey Jackovich
 ### October, 2018
-<br><br>
 # Contents
 <div>
     <ul>1. <a href="https://github.com/JeffreyJackovich/bitcoin-prediction-with-sentiment#1-introduction">Introduction</a></ul>
@@ -45,7 +44,9 @@ Analysis, we discuss a few characteristics of Twitter:
 
 ## 2. Technologies:
 Programming Language: Python
+<br>
 Big data technologies: SparkML, Spark-SQL
+<br>
 Libraries: Pandas, Matplotlib, Scikit-learn, TensorFlow
  
 ## 3. Methodology: 
@@ -61,18 +62,21 @@ I used Twitter's querysearch option for the phrase: 'bitcoin'.
 <ul><a href="https://github.com/JeffreyJackovich/bitcoin-prediction-using-sentiment/blob/master/tweet_pre-processing_spark.ipynb">Tweet pre-processing: Spark</a></ul>
 
 ## 4. Results: 
-<p><img width="1000"  
-        src="https://github.com/JeffreyJackovich/bitcoin-prediction-using-sentiment/blob/master/plots/linearRegressor_test_results.png"> </p>
- 
-<br>
-<br>
 LinearRegressor:
-Final RMSE (on training data): 1840.08
-Final RMSE (on test data): 3420.21
+- Final RMSE (on training data): 1840.08
+- Final RMSE (on test data): 3420.21
 
 DNNRegressor:
-Final RMSE (on training data): 1840.08
-Final RMSE (on test data): 3420.21
+- Final RMSE (on training data): 47.56
+- Final RMSE (on test data): 61.90
+
+<!--
+<p><img width="1000"  
+        src="https://github.com/JeffreyJackovich/bitcoin-prediction-using-sentiment/blob/master/plots/linearRegressor_test_results.png"> </p>
+<br>
+<br>
+-->
+
 ## 5. Conclusions:
 TBD  
 
