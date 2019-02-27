@@ -39,8 +39,7 @@ techniques are used to mine opinions from a document [1]
 Twitter is an online social networking and micro-blogging service that enables
 users to create and read short messages, called "Tweets". It is a global forum
 with the presence of eminent personalities from the field of entertainment,
-industry and politics. From the perspective of Sentiment
-Analysis, we discuss a few characteristics of Twitter:
+industry and politics. 
 
 ## 2. Technologies:
 Programming Language: Python
@@ -82,7 +81,7 @@ TBD
 
 ## 5. Future Work:
 Machine Learning Approaches: 
-- Implement a Genetic Algorithm to optimize hyperparameters
+- Implement a Genetic Algorithm to optimize neural net's hyperparameter selection.
 
 ## References:
 
