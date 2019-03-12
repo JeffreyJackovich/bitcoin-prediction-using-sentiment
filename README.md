@@ -83,6 +83,9 @@ TBD
 Machine Learning Approaches: 
 - Implement a Genetic Algorithm to optimize neural net's hyperparameter selection.
 
+Optimization:
+- Analyze all functions with <a href="https://docs.python.org/3.5/library/profile.html">cProfile</a> to determine the most inefficient functions to optimize. 
+
 ## References:
 
 [1] Bo Pang and Lillian Lee. Opinion mining and sentiment analysis. _Foundations and trends in information retrieval_, 2(1-2):pages 1-135, 2008. 
