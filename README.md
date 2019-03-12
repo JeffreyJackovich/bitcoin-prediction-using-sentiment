@@ -84,7 +84,7 @@ Machine Learning Approaches:
 - Implement a Genetic Algorithm to optimize neural net's hyperparameter selection.
 
 Optimization:
-- Analyze all functions with <a href="https://docs.python.org/3.5/library/profile.html">cProfile</a> to determine the most inefficient functions to optimize. 
+- Analyze the functions with <a href="https://docs.python.org/3.5/library/profile.html">cProfile</a> to determine the most inefficient functions to optimize.  Visualize optimization with <a href="http://pycallgraph.slowchop.com/en/master/">pycallgraph</a>.  
 
 ## References:
 
