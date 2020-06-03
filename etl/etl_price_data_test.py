@@ -3,6 +3,7 @@ from pyspark.sql import SparkSession
 from pytest import fixture
 
 CORRECT_HEADERS = [
+"Unnamed: 0",
 "date",
 "Open",
 "High",
@@ -22,6 +23,6 @@ def spark_session():
 	return spark
 
 def test_column_headers(spark_session):
-	df = spark_session.read.format("csv").option("header", "true").load("data/processed_btc_prices_ohlcvvw_2014-12-01_to_2018-11-11.csv")
+	df = spark_session.read.format("csv").option("header", "true").load("test_data/test_btc_price.csv")
 	column_headers = df.schema.names
 	assert  column_headers == CORRECT_HEADERS, "Column headers error"
