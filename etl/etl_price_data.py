@@ -30,7 +30,7 @@ def initialize_spark():
 
 def load_df_without_schema(spark):
 
-    df = spark.read.format("csv").option("header", "true").load("data/test_btc_price.csv")
+    df = spark.read.format("csv").option("header", "true").load("test_data/test_btc_price.csv")
     return df
 
 
