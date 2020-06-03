@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/JeffreyJackovich/bitcoin-prediction-using-sentiment.svg?branch=master)](https://travis-ci.com/JeffreyJackovich/bitcoin-prediction-using-sentiment)
+
 Bitcoin Price Prediction using Sentiment Analysis  
 =================================================================
 
