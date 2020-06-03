@@ -1,4 +1,4 @@
-import psycopg2
+#import psycopg2
 
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, StringType, LongType, TimestampType, ShortType, DateType
