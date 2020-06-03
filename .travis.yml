@@ -18,7 +18,7 @@ install:
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
   - conda info -a
-  - conda create -q -n py36_udacity_ai python=$TRAVIS_PYTHON_VERSION pytest pytest-cov 
+  - conda create -q -n py36_udacity_ai python=$TRAVIS_PYTHON_VERSION pytest pytest-cov pyspark
   - source activate py36_udacity_ai
 
 script: pytest # run tests
