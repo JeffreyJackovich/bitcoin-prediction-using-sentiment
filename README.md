@@ -1,4 +1,4 @@
-Bitcoin Price Prediction using Sentiment Analysis  
+Finding Investment Opportunities - Predicting the Price of Bitcoin with Sentiment Analysis  
 =================================================================
 
 |Service|Status|
@@ -27,19 +27,17 @@ Bitcoin Price Prediction using Sentiment Analysis
 
 ## 1. Introduction:  
 
+In this project, my goal is to predict the price of Bitcoin from Tweets containing the string: 'BTC'.  
+
+For more details, please refer to the full analysis below.
+
 ###  1.1  Sentiment Analysis
 
-Sentiment Analysis refers to the use of text analysis and natural language
-processing to identify and extract subjective information in textual contents.
-There are two type of user-generated content available on the web - facts and
-opinions. Facts are statements about topics and in the current scenario,
-easily collectible from the Internet using search engines that index documents
-based on topic keywords. Opinions are user specific statement exhibiting
-positive or negative sentiments about a certain topic. Generally opinions are
-hard to categorize using keywords. Various text analysis and machine learning
-techniques are used to mine opinions from a document [1]
+**Sentiment Analysis** 
+    A type of natural language processing to identify and extract subjective information from text.  There are two type of user-generated content available on the web - facts and opinions.  Facts are statements about topics and are easily collectible from the Internet using search engines that index documents based on topic keywords.  Opinions are user specific statements exhibiting positive or negative sentiments about a certain topic.  Generally opinions are hard to categorize using keywords. [1] 
+
 **Financial Markets**
-     Public opinion regarding companies can be used to predict performance of their stocks in financial markets. If people have a positive opinion about a product that a company A has launched, then the share prices of A are likely to go higher and vice versa. Public opinion can be used as an additional feature in existing models that try to predict market performances based on historical data.
+    Public opinion regarding companies can be used to predict performance of their stocks in financial markets.  If people have a positive opinion about a product that company A has launched, then the share prices of A are likely to go higher.  Public opinion can be used as an additional feature in models to predict market performance.
      
 ###  1.2  Twitter
 Twitter is an online social networking and micro-blogging service that enables
